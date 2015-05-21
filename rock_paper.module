@@ -28,6 +28,13 @@ function rock_paper_form() {
         '#element_validate' => array('element_validate_input_range'),
         '#required' => TRUE,
     );
+
+    $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => 'Go',
+    );
+
+    return $form;
 }
 
 function rock_paper_form_submit($form, &$form_state) {
