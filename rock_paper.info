@@ -1,0 +1,5 @@
+name = Rock, Paper, Scissors
+description = Rock, Paper, Scissors Game
+package = Epicodus Examples
+core = 7.x
+files[] = rock_paper.module
